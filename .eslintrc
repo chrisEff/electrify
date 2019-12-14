@@ -1,0 +1,15 @@
+{
+	"parser":  "@typescript-eslint/parser",
+	"extends": [
+		"@chriseff",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"plugins": [
+		"react"
+	],
+	"rules": {
+		"react/jsx-pascal-case": "error",
+		"react/jsx-uses-react": "error",
+		"react/jsx-uses-vars": "error"
+	}
+}
